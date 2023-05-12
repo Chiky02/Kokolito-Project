@@ -1,0 +1,512 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1668093321044839, "dur": 2817733, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093321045127, "dur": 16733, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093321061862, "dur": 31672, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093321093572, "dur": 1165674, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093322259248, "dur": 1595484, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093323854734, "dur": 7837, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093323863166, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1668093322052944, "dur": 191078, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668093322054283, "dur": 76354, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668093322224098, "dur": 5319, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668093322229429, "dur": 14585, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668093322230259, "dur": 13098, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668093322249538, "dur": 1529, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668093322248272, "dur": 2822, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093323867222, "dur": 193, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668093322295894, "dur":1111, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093322297015, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668093322297084, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668093322297107, "dur":1011, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668093322298153, "dur":571, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093322298724, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323810289, "dur":269, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323810558, "dur":407, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323810965, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323810968, "dur":388, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323811356, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323811358, "dur":351, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323811709, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323811710, "dur":351, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323812061, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323812063, "dur":354, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323812417, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323812419, "dur":350, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323812769, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323812770, "dur":348, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323813118, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323813120, "dur":348, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323813468, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323813482, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323813539, "dur":1216, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668093322297750, "dur":986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322298738, "dur":3477, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322302244, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668093322302246, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322302332, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668093322302339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322302643, "dur":7195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668093322309842, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668093322310008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322310020, "dur":12698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668093322322775, "dur":55053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1668093322377836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322377879, "dur":6151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1668093322384072, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1668093322384204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322384216, "dur":40311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1668093322424587, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322424612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322424620, "dur":26127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322450764, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322450782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322450789, "dur":47836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322498647, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322498675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322498684, "dur":59424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322558134, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322558156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322558166, "dur":64535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322622724, "dur":202629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322825358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322825367, "dur":87014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322912399, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322912421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322912428, "dur":43530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322955993, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322956020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322956030, "dur":30594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322986647, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093322986668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093322986678, "dur":28572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323015271, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323015295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093323015304, "dur":24298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323039625, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323039669, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093323039684, "dur":44173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323083880, "dur":94940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323178827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093323178837, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323180779, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323180820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093323180828, "dur":203965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323384817, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323384844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093323384853, "dur":140840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323525716, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323525738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668093323525771, "dur":284461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668093323810250, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1668093323810252, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322298325, "dur":507, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322298832, "dur":3410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322302245, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668093322302636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322302686, "dur":9083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668093322311812, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668093322311922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322311963, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668093322313879, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668093322314049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322314059, "dur":64246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668093322378359, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322378843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322378871, "dur":8890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322387812, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668093322387833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322387839, "dur":44081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668093322431944, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322431979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322431990, "dur":26972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322458977, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322458996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322459017, "dur":56594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322515634, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322515666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322515677, "dur":32006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322547711, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322547735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322547745, "dur":99958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322647727, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322647756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322647766, "dur":264163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322911953, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322911977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322911987, "dur":37923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322949932, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322949959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322949969, "dur":30308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322980309, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093322980340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093322980350, "dur":24738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323005111, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323005141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323005151, "dur":37898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323043074, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323043103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323043113, "dur":23247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323066380, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323066401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323066410, "dur":44038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323110469, "dur":41413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323151890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323151901, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323152755, "dur":29499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323182260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323182270, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323182993, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323183014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323183022, "dur":181695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323364737, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323364758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323364767, "dur":54180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323418969, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323418996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323419007, "dur":137899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668093323556959, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668093323556987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323556997, "dur":4837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668093323561861, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1668093323562004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323562016, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1668093323562814, "dur":8030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1668093323570849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668093323570860, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1668093323571702, "dur":238582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322297986, "dur":764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322298751, "dur":3501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322302252, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1668093322302563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322303838, "dur":7481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1668093322311369, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668093322311594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322311604, "dur":226263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668093322537927, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322537961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322537972, "dur":98092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322636089, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322636116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322636126, "dur":27031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322663181, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322663207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322663217, "dur":252988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322916228, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322916256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322916265, "dur":26213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322942499, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322942522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322942532, "dur":47170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322989725, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093322989747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093322989757, "dur":24701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323014484, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323014506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093323014516, "dur":134168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323148706, "dur":27257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323175971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093323176040, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323176861, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323176883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093323176892, "dur":69976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323246888, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323246910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093323246921, "dur":95263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323342206, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323342227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668093323342237, "dur":241809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668093323584066, "dur":226242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322298118, "dur":649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322298767, "dur":3481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322302249, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668093322302531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322303077, "dur":8106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668093322311229, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1668093322311565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322311575, "dur":66696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1668093322378329, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1668093322378702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322378712, "dur":12857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1668093322391611, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1668093322391716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322391752, "dur":32192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1668093322423996, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322424027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322424057, "dur":79225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322503306, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322503333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322503343, "dur":29510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322532906, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322532944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322532954, "dur":125059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322658035, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322658059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322658069, "dur":257501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322915598, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322915625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322915636, "dur":29741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322945401, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322945430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322945440, "dur":27690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322973156, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093322973263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093322973273, "dur":122505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323095801, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323096703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323096714, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323097480, "dur":54440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323151925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323151933, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323155245, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323156074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323156085, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323156813, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323156835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323156843, "dur":111617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323268482, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323268513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323268523, "dur":37551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323306101, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323306127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323306137, "dur":42697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323348856, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323348885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323348894, "dur":215225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668093323564149, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668093323564175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323564186, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668093323566308, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668093323566338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323566348, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668093323567540, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1668093323567663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323567676, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1668093323568622, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668093323568648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323568658, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668093323569599, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1668093323569631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323569640, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1668093323570528, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1668093323570672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668093323570681, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1668093323571568, "dur":238759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322297846, "dur":897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322298744, "dur":3497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322302245, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668093322302466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322302871, "dur":7431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668093322310353, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668093322310731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322310741, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668093322312893, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668093322313400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322313409, "dur":8222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668093322321687, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668093322321827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322321840, "dur":211656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668093322533554, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322533581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322533590, "dur":25357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322558967, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322558992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322559001, "dur":104443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322663465, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322663490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322663499, "dur":248628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322912154, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322912177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322912185, "dur":27848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322940055, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322940083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322940094, "dur":24152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322964273, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093322964296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093322964305, "dur":41088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323005412, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323005434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323005442, "dur":29456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323034920, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323034949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323034958, "dur":25854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323060835, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323060859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323060869, "dur":47904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323108794, "dur":26642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323135442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323135454, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323136255, "dur":1312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323137572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323137582, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323138286, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323138997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323139006, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323139657, "dur":27926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323167591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323167602, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323168402, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323168424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323168431, "dur":285188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323453643, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323453666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323453675, "dur":48714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323502411, "dur":47001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323549419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323549431, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668093323550405, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1668093323550519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323550611, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1668093323551286, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1668093323551306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323551315, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1668093323552265, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1668093323552284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323552292, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1668093323552899, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668093323552917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668093323552945, "dur":31112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668093323584076, "dur":226218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322298224, "dur":570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322298794, "dur":3455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322302249, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1668093322302757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322302772, "dur":10009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1668093322312836, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1668093322313001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322313012, "dur":65658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1668093322378721, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322378868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322378874, "dur":118788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322497723, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322497760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322497770, "dur":29222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322527015, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322527088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322527099, "dur":58244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322585366, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322585397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322585407, "dur":108644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322694078, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322694107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322694118, "dur":217970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322912108, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322912133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322912140, "dur":24439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322936596, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322936617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322936647, "dur":60826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322997493, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093322997515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093322997526, "dur":81892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323079441, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323079475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323079486, "dur":32650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323112157, "dur":2877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323115040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323115052, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323115974, "dur":62931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323178910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323178919, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323179651, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323179674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323179682, "dur":123717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323303421, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323303446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323303476, "dur":124921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323428419, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323428443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323428453, "dur":134346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668093323562817, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668093323562837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668093323562846, "dur":10322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668093323573189, "dur":237111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322298275, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322298810, "dur":3441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322302251, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668093322302551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322303300, "dur":230732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668093322534088, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322534117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322534125, "dur":51999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322586142, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322586163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322586171, "dur":327323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322913514, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322913539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322913548, "dur":26787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322940355, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322940377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322940386, "dur":59448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322999860, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093322999885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093322999895, "dur":29633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323029549, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323029570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093323029581, "dur":31544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323061143, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323061164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093323061172, "dur":159858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323221051, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323221074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093323221083, "dur":97344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323318449, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323318476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093323318485, "dur":229404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323547912, "dur":125079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323673022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668093323673034, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668093323673750, "dur":136566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322298181, "dur":606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322298788, "dur":3452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322302244, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1668093322302557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322303524, "dur":74800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1668093322378374, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322379131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322379139, "dur":78493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322457693, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322457734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322457744, "dur":56175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322513942, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322513977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322513988, "dur":150874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322664885, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322664913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322664922, "dur":24485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322689431, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322689453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322689463, "dur":222877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322912356, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322912377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322912405, "dur":23982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322936411, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322936434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322936445, "dur":44997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322981462, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093322981484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093322981493, "dur":26983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323008499, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323008525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093323008559, "dur":26434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323035012, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323035032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093323035039, "dur":55108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323090170, "dur":283152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323373329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093323373340, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323374352, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323374375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093323374382, "dur":153651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323528058, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323528087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668093323528097, "dur":207552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos usuario/Pictures/JUEGUITO/sistema_habilidades_komagic_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668093323735666, "dur":74619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668093323818828, "dur":1812, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668093323867458, "dur": 713, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668093323863155, "dur": 5042, "ph": "X", "name": "Write chrome-trace events", "args": {} },

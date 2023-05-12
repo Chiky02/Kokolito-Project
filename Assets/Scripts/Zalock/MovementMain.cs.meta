@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8cda83676a24cec4dbeac01714da7eb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wheelSkill: {instanceID: 0}
+  - cameraMain: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
