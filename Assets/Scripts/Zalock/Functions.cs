@@ -27,13 +27,8 @@ public class Functions
 
 
         else
-        {
-           
-            animator.SetBool("caminar", false);
-            
+        {            
             return 0;
-
-
         }
 
 
@@ -65,7 +60,7 @@ public class Functions
 
     }
 
-    public void Jump(Animator animator,int forceJump,bool couldJump, bool twoJump)
+    public void Jump(Animator animator,bool couldJump, bool twoJump)
     {
 
         enableJump( animator);

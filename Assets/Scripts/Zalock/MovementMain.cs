@@ -17,15 +17,14 @@ public class MovementMain: MonoBehaviour
     public float rotationVelocity;
     public float jumpVelocity;
 
-
     public Vector3 move;
-    public Vector3 gravityForce;
+
   
     //public float velocityCameraY;
-    float gravityValue = 9.8f;
-
+    public float gravityValue = 1.8f;
+    float gravityVelocity;
+    [NonSerialized] private float gravityMultiplier = 0.81f;
     public float velocityCameraX;
-    public int forceJump = 100;
    public int forceDash = 300;//variable usada en otro lugar
     public bool couldJump = true;
     public bool twoJump = false;
@@ -41,95 +40,82 @@ public class MovementMain: MonoBehaviour
     //objeto que bloquea el paso
     public GameObject block;
 
-   //habilidades
-   // public int opcionBotas = 0;
-   
+    //habilidades
+    // public int opcionBotas = 0;
+
     void Start()
     {
         animator = GetComponent<Animator>();//obtencion del arbol de animaciones
         controller = GetComponent<CharacterController>();
-      
+        
     }
     void Update()
     {
+        Debug.Log(Input.GetAxisRaw("leftTrigger"));
+        
         //movimiento hacia adelante     
         //transform.Translate(0, 0, f.moverY(animator, velocityMovement));
 
-        float mo = Input.GetAxis("Vertical");
-        gravityForce.y -= gravityValue * Time.deltaTime;
-        if (mo != 0) {
-            move = transform.forward * f.moverY(animator, velocityMovement);
-            controller.Move(move * Time.deltaTime);
-            gravityForce.y -= gravityValue * Time.deltaTime;
-            controller.Move(gravityForce * Time.deltaTime);
-        }
-        else if (controller.isGrounded)
+
+        /*    gravityForce.y -= gravityValue * Time.deltaTime;*/
+        //apliacando gravedad
+
+        if (Input.GetButtonDown("A"))
         {
-
-            animator.SetBool("caminar", false);
-            couldJump = f.ableJump(animator);
-
-        
-
+            f.Jump(animator, couldJump, twoJump);
+            gravityVelocity = jumpVelocity;
+           // controller.Move(move * velocityMovement * Time.deltaTime);
         }
         else
-        {
+        { }
+        applyGravity();
+            applyMovement();
+       
+       
+        /*  controller.Move(gravityForce * Time.deltaTime);*/
         
-            couldJump = f.enableJump(animator);
-            gravityForce.y -= gravityValue * Time.deltaTime;
+   
+        //animator.SetBool("caminar", false);
+        // couldJump = f.ableJump(animator);
 
-            controller.Move(gravityForce * Time.deltaTime);
+        //couldJump = f.enableJump(animator);
+        //gravityForce.y -= gravityValue * Time.deltaTime;
 
-        }
-      
+        //controller.Move(gravityForce * Time.deltaTime);
+
         //rotacion de personaje
-        controller.transform.Rotate(transform.up * Input.GetAxisRaw("Horizontal")*rotationVelocity*Time.deltaTime);
+     controller.transform.Rotate(transform.up* Input.GetAxis("HorizontalR") * rotationVelocity * Time.deltaTime);
 
-        if (Input.GetKeyUp(KeyCode.LeftControl))
-        {
-            f.Jump(animator, forceJump, couldJump, twoJump);
-            gravityForce.y += jumpVelocity ;
-            controller.Move(gravityForce * Time.deltaTime);
-        }
-
-
+        //Debug.Log(Input.GetAxis("HorizontalR"));
+     
 
         //habilidad de saltar
 
-        //this conditional is used to determinate de jump type
+            //this conditional is used to determinate de jump type
 
+            //modos de movimiento de la camara
+            //With this functión we can pin up the camera un a place
 
-
-
-
-
-
-        //modos de movimiento de la camara
-        //With this functión we can pin up the camera un a place
-
-        f.focusCamera(focusCamera, cameraMain, velocityCameraX, transform);
+            f.focusCamera(focusCamera, cameraMain, velocityCameraX, transform);
         //aqui se oculta o no la rueda de actividades
         //With this code we can hide or show the activities wheel
         f.actvitiesWheel(cameraMain, wheelSkill);
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetButton("correr"))
         {
             //llamado a la funcion de correr
             f.run(animator, velocityMovement);
 
-            move = transform.forward *  velocityMovement*4;
+            move = transform.forward * velocityMovement * 4;
             controller.Move(move * Time.deltaTime);
-            
+
             //CONTADOR DE TIEMPO JUGANDO...
         }
         else
         {
             animator.SetBool("correr", false);//esto se corregirá luego
-           
+
         }
         //apuntar
-        
-
-
         //cosas que tal vez no vayan aqúí pero se ponen igual :v
 
 
@@ -141,18 +127,55 @@ public class MovementMain: MonoBehaviour
         /*  timeActual += Time.deltaTime;
           timeSeconds = (int)timeActual;*/
         //Hacer una funcion counter time
-        if (Input.GetKeyUp(KeyCode.LeftAlt))
+       
+        if (Input.GetButtonDown("B"))
         {            //llamado a la funcion de correr            
             f.Down(animator);            //CONTADOR DE TIEMPO JUGANDO...        
         }
 
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetAxis("Lt") >0)
         {            //llamado a la funcion de correr           
             f.Aim(animator);            //CONTADOR DE TIEMPO JUGANDO...        
         }
+        else
+        {
+            
+        }
         //funcion para mover personaje hacia adelante y atrás          
         // se verifica si está tocando el piso
-      
+         }
+
+    private float applyGravity()
+    {
+        if (controller.isGrounded && gravityVelocity <0f)
+        {
+            gravityVelocity = -1f;
+            animator.SetBool("saltar", false);
+        }
+        else
+        {
+            gravityVelocity -= (gravityValue) * gravityMultiplier*Time.deltaTime;
+        }
+        return gravityVelocity;
+
+
+    }
+    private void applyMovement()
+    {
+        move = new Vector3(-f.moverY(animator,velocityMovement), applyGravity(), Input.GetAxis("Horizontal"));
+        if (move.x == 0)
+        {
+            animator.SetBool("caminar", false);
+
+        }
+        else
+        {
+
+            
+
+        }
+        controller.Move(move * velocityMovement * Time.deltaTime);
+
     }
     private void OnCollisionStay(Collision collision)
     {
@@ -165,10 +188,10 @@ public class MovementMain: MonoBehaviour
     }
 
 
- private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         //obtiene monedas
-        if (other.tag=="item"  )
+        if (other.tag == "item")
         {
             Debug.Log("SIRVE");
             Destroy(other.gameObject);
@@ -187,11 +210,14 @@ public class MovementMain: MonoBehaviour
 
             Destroy(other.gameObject);
             energyPlayer++;
-            
+
         }
 
 
     }
+   
+  
+   
 
     //Clase cortinas
     IEnumerator WaitTime(float tiempo, Action accion)

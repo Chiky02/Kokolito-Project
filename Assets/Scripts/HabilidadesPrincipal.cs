@@ -25,7 +25,7 @@ public class HabilidadesPrincipal : MonoBehaviour
             {
                 movementMain.couldJump = false;
                 //se da fuerza en el eje y
-                GetComponent<Rigidbody>().AddForce(0, movementMain.forceJump, 0);
+               // GetComponent<Rigidbody>().AddForce(0, movementMain.forceJump, 0);
             }
             else
             {

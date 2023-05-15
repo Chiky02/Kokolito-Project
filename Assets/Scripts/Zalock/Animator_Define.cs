@@ -6,19 +6,19 @@ public class Animator_Define
 {
     public void Downxd(Animator animator)
     {
-        animator.SetBool("Reposo", false);
+     
         animator.SetBool("Agachado", true);
     }
     public void NoDonwxd(Animator animator)
     {
-        animator.SetBool("Reposo", true);
+       
         animator.SetBool("Agachado", false);
     }
 
     public void moveY(Animator animator) {
 
         animator.SetBool("caminar", true);
-        animator.SetBool("Reposo", false);
+        
 
 
     }
@@ -40,7 +40,7 @@ public class Animator_Define
     }
     public void run(Animator animator)
     {
-        animator.SetBool("Reposo", false);
+
         animator.SetBool("correr", true);
         
 
@@ -48,23 +48,23 @@ public class Animator_Define
     }
     public void jumpping(Animator animator)
     {
-        animator.SetBool("Reposo", true);
+        
         animator.SetBool("saltar", false);
     }
     public void notJumping(Animator animator)
     {
-        animator.SetBool("Reposo", false);
+        
         animator.SetBool("saltar", true);
     }
 
     public void Aimxd(Animator animator)
     {
-        animator.SetBool("Reposo", false);
+ 
         animator.SetBool("Apuntando", true);
     }
     public void NoAimxd(Animator animator)
     {
-        animator.SetBool("Reposo", true);
+      
         animator.SetBool("Apuntando", false);
     }
 
