@@ -18,8 +18,8 @@ public class MovementMain: MonoBehaviour
     public float jumpVelocity;
 
     public Vector3 move;
+    public Vector3 gravity;
 
-  
     //public float velocityCameraY;
     public float gravityValue = 1.8f;
     float gravityVelocity;
@@ -51,8 +51,9 @@ public class MovementMain: MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(Input.GetAxisRaw("leftTrigger"));
-        
+       
+
+        controller.transform.Rotate(transform.up * Input.GetAxis("HorizontalR") * rotationVelocity * Time.deltaTime);
         //movimiento hacia adelante     
         //transform.Translate(0, 0, f.moverY(animator, velocityMovement));
 
@@ -70,11 +71,11 @@ public class MovementMain: MonoBehaviour
         { }
         applyGravity();
             applyMovement();
-       
-       
+
+
         /*  controller.Move(gravityForce * Time.deltaTime);*/
-        
-   
+
+
         //animator.SetBool("caminar", false);
         // couldJump = f.ableJump(animator);
 
@@ -84,19 +85,22 @@ public class MovementMain: MonoBehaviour
         //controller.Move(gravityForce * Time.deltaTime);
 
         //rotacion de personaje
-     controller.transform.Rotate(transform.up* Input.GetAxis("HorizontalR") * rotationVelocity * Time.deltaTime);
+        //var targetAngle = MathF.Atan2(move.x, move.y) * Mathf.Rad2Deg;
 
+       // transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
+
+        // 
         //Debug.Log(Input.GetAxis("HorizontalR"));
-     
+
 
         //habilidad de saltar
 
-            //this conditional is used to determinate de jump type
+        //this conditional is used to determinate de jump type
 
-            //modos de movimiento de la camara
-            //With this functión we can pin up the camera un a place
+        //modos de movimiento de la camara
+        //With this functión we can pin up the camera un a place
 
-            f.focusCamera(focusCamera, cameraMain, velocityCameraX, transform);
+        f.focusCamera(focusCamera, cameraMain, velocityCameraX, transform);
         //aqui se oculta o no la rueda de actividades
         //With this code we can hide or show the activities wheel
         f.actvitiesWheel(cameraMain, wheelSkill);
@@ -162,7 +166,10 @@ public class MovementMain: MonoBehaviour
     }
     private void applyMovement()
     {
-        move = new Vector3(-f.moverY(animator,velocityMovement), applyGravity(), Input.GetAxis("Horizontal"));
+        move  = transform.forward * velocityMovement *f.moverY(animator,velocityMovement);
+        gravity = new Vector3(0f, applyGravity(), Input.GetAxis("Horizontal"));
+        // move = transform.forward * f.moverY(animator, velocityMovement);
+
         if (move.x == 0)
         {
             animator.SetBool("caminar", false);
@@ -174,8 +181,8 @@ public class MovementMain: MonoBehaviour
             
 
         }
-        controller.Move(move * velocityMovement * Time.deltaTime);
-
+        controller.Move(move * velocityMovement *Time.deltaTime);
+        controller.Move(gravity * Time.deltaTime);
     }
     private void OnCollisionStay(Collision collision)
     {
