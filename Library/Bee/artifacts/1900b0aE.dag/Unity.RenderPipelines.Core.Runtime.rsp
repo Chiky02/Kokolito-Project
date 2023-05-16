@@ -117,9 +117,11 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:ENABLE_VR_MODULE
 -define:ENABLE_XR_MODULE
+-define:ENABLE_INPUT_SYSTEM_PACKAGE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity 2021.3.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -336,6 +338,7 @@
 -r:"D:/Documentos usuario/Documents/Unity projects/KOMAGIC Beta v1.0.1/Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"D:/Documentos usuario/Documents/Unity projects/KOMAGIC Beta v1.0.1/Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll"
 -r:"D:/Documentos usuario/Documents/Unity projects/KOMAGIC Beta v1.0.1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.render-pipelines.core@12.1.7/Runtime/AssemblyInfo.cs"
