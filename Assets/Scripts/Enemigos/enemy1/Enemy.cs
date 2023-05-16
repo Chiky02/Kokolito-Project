@@ -1,14 +1,14 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.AI;
 //using static UnityEditor.Experimental.GraphView.GraphView;
 
-public class Enemy2 : MonoBehaviour
+public class Enem2 : MonoBehaviour
 {
     //Variables
     public NavMeshAgent navEnemy;//Agente Navmesh para que el enemigo no se pegue contra las paredes
 
     public Transform player;
-    
+
     public GameObject playerGO;
 
     public LayerMask floor, playerLayer;
@@ -36,7 +36,7 @@ public class Enemy2 : MonoBehaviour
         navEnemy = GetComponent<NavMeshAgent>();
     }
 
-    private void Update() 
+    private void Update()
     {
 
         //Verifica si ve al jugador o si el jugador esta en el rango de ataque
@@ -53,7 +53,7 @@ public class Enemy2 : MonoBehaviour
     {
         //Si no hay destino, se busca uno nuevo
         if (!markedDestination) NewDestination();
-        
+
         if (markedDestination)
             navEnemy.SetDestination(destination); //Agente Navmesh ubica su destino
 
@@ -89,15 +89,11 @@ public class Enemy2 : MonoBehaviour
         navEnemy.SetDestination(transform.position);
         //Mirar al jugador (Aun hay que corregir el error de que rota tambien en Y)
         this.transform.LookAt(player);
-        
+
 
         if (!attacking) //Verifica si aun no ha atacado
         {
-            //Disparar bala mala
-            GameObject BulletAux = Instantiate(badBullet, transform.position, Quaternion.identity);
-            BulletAux.GetComponent<Rigidbody>().AddForce(transform.forward * 32f, ForceMode.Impulse);
-            BulletAux.GetComponent<Rigidbody>().AddForce(transform.up * 8f, ForceMode.Impulse);
-            Destroy(BulletAux, 2);
+            //Ataque cuerpo a cuerpo (aun no esta listo :v)
 
             //Esta atacando, asi que le toca esperar a la recarga para atacar de nuevo
             attacking = true;
@@ -109,13 +105,13 @@ public class Enemy2 : MonoBehaviour
         attacking = false;
     }
 
-    public void RecibirDaño(int daño) //Recibir daño por el jugador (Aun no hay ataque de melee del jugador)
+    public void RecibirDa�o(int da�o) //Recibir da�o por el jugador (Aun no hay ataque de melee del jugador)
     {
-        life -= daño;
+        life -= da�o;
 
         if (life <= 0) Invoke(nameof(DestroyEnemy), 0.5f); //Se muere si ya no hay vida
     }
-    private void OnCollisionEnter(Collision collision) //Daño por bala
+    private void OnCollisionEnter(Collision collision) //Da�o por bala
     {
         if (collision.collider.tag == "Bullet")
         {
@@ -128,13 +124,13 @@ public class Enemy2 : MonoBehaviour
         }
     }
 
-    private void DestroyEnemy() //Destruye al enemigo (No necesariamente por daño del jugador, por eso tengo esto aparte para futuros usos :v)
+    private void DestroyEnemy() //Destruye al enemigo (No necesariamente por da�o del jugador, por eso tengo esto aparte para futuros usos :v)
     {
         Destroy(gameObject);
     }
 
 
-private void OnDrawGizmosSelected() //Gizmos para facilitarme la vida al modificar los rangos de ataque y vista :v
+    private void OnDrawGizmosSelected() //Gizmos para facilitarme la vida al modificar los rangos de ataque y vista :v
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
