@@ -15,7 +15,7 @@ public class ViewPortal : MonoBehaviour
     }
     void Start()
     {
-        GetComponent<Material>().mainTexture = tempTexture;
+       // GetComponent<Material>().mainTexture = tempTexture;
     }
     private void OnEnable()
     {

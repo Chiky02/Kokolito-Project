@@ -51,55 +51,17 @@ public class MovementMain: MonoBehaviour
     }
     void Update()
     {
-       
 
         controller.transform.Rotate(transform.up * Input.GetAxis("HorizontalR") * rotationVelocity * Time.deltaTime);
-        //movimiento hacia adelante     
-        //transform.Translate(0, 0, f.moverY(animator, velocityMovement));
-
-
-        /*    gravityForce.y -= gravityValue * Time.deltaTime;*/
-        //apliacando gravedad
-
         if (Input.GetButtonDown("A"))
         {
             f.Jump(animator, couldJump, twoJump);
             gravityVelocity = jumpVelocity;
            // controller.Move(move * velocityMovement * Time.deltaTime);
         }
-        else
-        { }
+        
         applyGravity();
             applyMovement();
-
-
-        /*  controller.Move(gravityForce * Time.deltaTime);*/
-
-
-        //animator.SetBool("caminar", false);
-        // couldJump = f.ableJump(animator);
-
-        //couldJump = f.enableJump(animator);
-        //gravityForce.y -= gravityValue * Time.deltaTime;
-
-        //controller.Move(gravityForce * Time.deltaTime);
-
-        //rotacion de personaje
-        //var targetAngle = MathF.Atan2(move.x, move.y) * Mathf.Rad2Deg;
-
-       // transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
-
-        // 
-        //Debug.Log(Input.GetAxis("HorizontalR"));
-
-
-        //habilidad de saltar
-
-        //this conditional is used to determinate de jump type
-
-        //modos de movimiento de la camara
-        //With this functión we can pin up the camera un a place
-
         f.focusCamera(focusCamera, cameraMain, velocityCameraX, transform);
         //aqui se oculta o no la rueda de actividades
         //With this code we can hide or show the activities wheel
@@ -169,18 +131,13 @@ public class MovementMain: MonoBehaviour
         move  = transform.forward * velocityMovement *f.moverY(animator,velocityMovement);
         gravity = new Vector3(0f, applyGravity(), Input.GetAxis("Horizontal"));
         // move = transform.forward * f.moverY(animator, velocityMovement);
-
+        
         if (move.x == 0)
         {
             animator.SetBool("caminar", false);
 
         }
-        else
-        {
-
-            
-
-        }
+       
         controller.Move(move * velocityMovement *Time.deltaTime);
         controller.Move(gravity * Time.deltaTime);
     }

@@ -39,28 +39,28 @@ public class WeaponSelection : MonoBehaviour
 
 
         //se hace el cambi del arma, se destruye la anterior y se crea la elegida
-        if (Input.GetKeyDown(KeyCode.Joystick1Button6))
+        if (Input.GetAxis("padVertical") > 0)
         {
-            NormaliceBoneScale();
+          NormaliceBoneScale();
             Debug.Log("tecla A");
             DestroyWeapon(movementMain.weaponOption, weaponNum);
             movementMain.weaponOption = 0;
             weaponNum = 2;
             CreateWeapon(movementMain.weaponOption, 0, 2);
 
-
+            
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetAxis("padHorizontal") > 0)
         {
 
-            Debug.Log("tecla B");
+          //s  Debug.Log("tecla B");
             DestroyWeapon(movementMain.weaponOption, weaponNum);
             movementMain.weaponOption = 1;
             weaponNum = 1;
             CreateWeapon(movementMain.weaponOption, 1, 1);
             NormaliceBoneScale();
         }
-        else if (Input.GetKeyDown(KeyCode.J))
+        else if (Input.GetAxis("padHorizontal") < 0)
         {
 
             Debug.Log("tecla X");
@@ -70,10 +70,10 @@ public class WeaponSelection : MonoBehaviour
             CreateWeapon(movementMain.weaponOption, 1, 1);
             NormaliceBoneScale();
         }
-        else if (Input.GetKeyDown(KeyCode.Joystick1Button7))
+        else if (Input.GetAxis("padVertical") < 0)
         {
             NormaliceBoneScale();
-            Debug.Log("tecla Y");
+           // Debug.Log("tecla Y");
             DestroyWeapon(movementMain.weaponOption, weaponNum);
             movementMain.weaponOption = 3;
             weaponNum = 1;

@@ -19,7 +19,7 @@ public class HabilidadesPrincipal : MonoBehaviour
 
     public void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButton("Jump"))
         {
             if (movementMain.couldJump)
             {
