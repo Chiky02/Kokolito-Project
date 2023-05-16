@@ -94,10 +94,27 @@ public class MovementMain: MonoBehaviour
           timeSeconds = (int)timeActual;*/
         //Hacer una funcion counter time
        
-        if (Input.GetButtonDown("B"))
+        if (Input.GetButton("B"))
         {            //llamado a la funcion de correr            
             f.Down(animator);            //CONTADOR DE TIEMPO JUGANDO...        
         }
+        if (Input.GetButton("X")) {
+            animator.SetBool("atacarNormal", true);
+        
+        }
+        else
+        {
+           animator.SetBool("atacarNormal", false);
+        }
+        if (Input.GetButton("Y"))
+        {
+
+            animator.SetBool("AtacarEspecial", true); }
+
+        else {
+          animator.SetBool("AtacarEspecial", false);
+        }
+        
 
         if (Input.GetAxis("Lt") >0)
         {            //llamado a la funcion de correr           
