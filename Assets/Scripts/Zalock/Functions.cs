@@ -91,13 +91,13 @@ public class Functions
         {
             //camara para apuntar
 
-            cameraMain.transform.parent.parent.Rotate(0, Input.GetAxis("Mouse X") * velocityCameraX, 0);
+            //cameraMain.transform.parent.parent.Rotate(0, Input.GetAxis("Mouse X") * velocityCameraX, 0);
 
         }
         else
         {
             //camara normal
-            cameraMain.transform.parent.Rotate(0, Input.GetAxis("Mouse X") * velocityCameraX, 0);
+//cameraMain.transform.parent.Rotate(0, Input.GetAxis("Mouse X") * velocityCameraX, 0);
 
             if (Input.GetKey(KeyCode.N))
             {

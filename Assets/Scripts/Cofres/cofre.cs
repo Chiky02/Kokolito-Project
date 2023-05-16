@@ -23,9 +23,9 @@ public class cofre : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        print("Hay contacto");
+        print("Hay contacto"+ collision.transform.tag);
 
-        if (collision.transform.tag == "Player" && contador==1)
+        if (collision.transform.tag == "Player" )
         {
             print("Hay contacto");
 

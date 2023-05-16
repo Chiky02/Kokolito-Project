@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class AccionesPrincipal : MonoBehaviour
 {
-
-
     /*
      Es importante tener en cuenta que:
     *Este codigo no esta ordenado de la mejor manera
@@ -14,10 +12,7 @@ public class AccionesPrincipal : MonoBehaviour
     *algunas funciones no se utilizand ya que son de la parte de habilidades de Nicolas
     *acá se resalta el codigo para animación y movimientos básicos necesario
      */
-
     public int vidaJugador = 5;
-  
-
     public GameObject camara;
     public float velocidadMovimientoPrincipal;
     public float velocidadCamaraY;
@@ -25,17 +20,12 @@ public class AccionesPrincipal : MonoBehaviour
     public int fuerzaSalto = 300;
     public int fuerzaDash = 300;
     public bool poderSaltar = true;
-
     public bool dobleSalto = false;
     public bool enfoqueCamara = false;
-
     int tiempoSegundos;
     public int numeroEnemigos = 4;
     Quaternion rotacionCamaraInicial;
-
     Animator animator;
-
-
     //habilidades
     public int opcionBotas = 0;
 
@@ -57,9 +47,6 @@ public class AccionesPrincipal : MonoBehaviour
 
         //rotacion de personaje
         transform.Rotate(0, Input.GetAxisRaw("Horizontal")*3f, 0);
-
-
-
 
         //funcion para mover personaje hacia adelante y atrás
         float moverY() {
