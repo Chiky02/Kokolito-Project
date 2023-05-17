@@ -37,14 +37,7 @@ public class Functions
 
     public void Aim(Animator animator)
     {
-        if (aimming)
-        {
-            aimming = false;
-            anim.NoAimxd(animator);
-
-        }
-
-        else { anim.Aimxd(animator); aimming = true; }
+        anim.Aimxd(animator); 
 
     }
     public void Down(Animator animator)

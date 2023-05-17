@@ -5810,7 +5810,7 @@ MonoBehaviour:
   wheelSkill: {fileID: 25175695}
   cameraMain: {fileID: 1772617940}
   velocityMovement: 2
-  rotationVelocity: 70
+  rotationVelocity: 80
   jumpVelocity: 10
   move: {x: 0, y: 0, z: 0}
   gravity: {x: 0, y: 0, z: 0}

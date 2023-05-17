@@ -39,5 +39,19 @@ public class cofre : MonoBehaviour
 
     
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.tag == "Player")
+        {
+            print("Hay contacto");
+
+            objeto.transform.Rotate(-90, 0, 0);
+
+            contador++;
+
+
+
+        }
+    }
 
 }

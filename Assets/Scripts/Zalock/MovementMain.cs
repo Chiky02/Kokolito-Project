@@ -94,7 +94,7 @@ public class MovementMain: MonoBehaviour
           timeSeconds = (int)timeActual;*/
         //Hacer una funcion counter time
        
-        if (Input.GetButton("B"))
+        if (Input.GetButtonDown("B"))
         {            //llamado a la funcion de correr            
             f.Down(animator);            //CONTADOR DE TIEMPO JUGANDO...        
         }
@@ -120,9 +120,9 @@ public class MovementMain: MonoBehaviour
         {            //llamado a la funcion de correr           
             f.Aim(animator);            //CONTADOR DE TIEMPO JUGANDO...        
         }
-        else
+        else if(Input.GetAxis("Lt") ==0)
         {
-            
+            animator.SetBool("Apuntando", false);
         }
         //funcion para mover personaje hacia adelante y atrás          
         // se verifica si está tocando el piso
@@ -146,7 +146,7 @@ public class MovementMain: MonoBehaviour
     private void applyMovement()
     {
         move  = transform.forward * velocityMovement *f.moverY(animator,velocityMovement);
-        gravity = new Vector3(0f, applyGravity(), Input.GetAxis("Horizontal"));
+        gravity = new Vector3(0f, applyGravity(), Input.GetAxis("Horizontal")*0f);
         // move = transform.forward * f.moverY(animator, velocityMovement);
         
         if (move.x == 0)
